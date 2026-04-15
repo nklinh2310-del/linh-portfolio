@@ -6,7 +6,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/linh-kristine-nguyen',
   headshot: '/images/headshot.jpg',
   resume: {
-    available: false,
+    available: true,
     path: '/documents/resume.pdf',
     note: 'Add your resume PDF at public/documents/resume.pdf and set available to true in src/data/profile.js.'
   },
@@ -73,12 +73,13 @@ export const profile = {
   experience: [
     {
       company: 'KPMG',
-      role: 'Professional Services Experience',
+      role: 'Risk & ESG Consulting Intern',
       period: 'Recommendation-supported experience',
       bullets: [
-        'Built credibility in a professional services environment through dependable execution, organized communication, and high attention to detail.',
-        'Practiced client-ready behaviors: clear follow-through, careful documentation, and thoughtful synthesis of business context.',
-        'Strengthened judgment under deadlines while supporting team priorities and maintaining a polished work product.'
+        'Led analytical workstreams across 4 ESG client engagements, structuring fragmented regulatory and sustainability data into prioritized insights to support strategic recommendations under tight timelines',
+        'Built client-ready deliverables, including Excel-based decision tools (60+ solutions) and PowerPoint decks, translating complex ESG frameworks into actionable implementation roadmaps',
+        'Assessed carbon credit feasibility for a petrochemical client by structuring inputs from Verra, Gold Standard, and regulatory sources into a process flow and data-visualization framework to evaluate project pathways',
+        'Conducted ESG benchmarking of 4 global utilities (EDF, ENEL, KEPCO), identifying performance gaps and informing phased transition strategies (4-month / 1-year roadmap).'
       ]
     },
     {
@@ -93,12 +94,12 @@ export const profile = {
     },
     {
       company: 'Leadership and Campus Engagement',
-      role: 'High-signal extracurricular leadership',
-      period: 'Edit with final resume details',
+      role: 'UCLA Bruin Finance Society | Offbeat Sessions | Consulting Connect',
+      period: 'UCLA Business Economics',
       bullets: [
-        'Led through clear operating rhythm, thoughtful stakeholder communication, and practical prioritization.',
-        'Built confidence presenting ideas, synthesizing perspectives, and aligning groups around next steps.',
-        'Used structured planning to balance academic, professional, and leadership commitments.'
+       'Scaled Offbeat Sessions to 1,000+ followers and 183K views in 30 days through data-driven content strategy, increasing conversion rates by 520%',
+       'Selected for Consulting Connect; collaborating in a 9-member team to develop revenue diversification strategies for a sustainability nonprofit using structured problem solving and benchmarking',
+      'Analyzed business cases in Bruin Finance Society, breaking down ambiguous problems into frameworks and presenting recommendations to mentors.'
       ]
     }
   ],
