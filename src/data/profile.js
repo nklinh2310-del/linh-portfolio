@@ -2,7 +2,7 @@ export const profile = {
   name: 'Linh Kristine Nguyen',
   headline: 'Strategy, finance, and ESG-focused consulting candidate',
   location: 'Los Angeles, CA',
-  email: 'linh.nguyen@example.com',
+  email: 'nklinh2310@gmail.com',
   linkedin: 'https://www.linkedin.com/in/linh-kristine-nguyen',
   headshot: '/images/headshot.jpg',
   resume: {
