@@ -1,5 +1,5 @@
 export const profile = {
-  name: 'TEST UPDATE',
+  name: 'LINH (KRISTINE) NGUYEN',
   headline: 'Strategy, finance, and ESG-focused consulting candidate',
   location: 'Los Angeles, CA',
   email: 'nklinh2310@gmail.com',
