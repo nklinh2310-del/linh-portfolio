@@ -165,8 +165,6 @@ function FeaturedProjects({ onPreview }) {
     <section id="work" className="section bg-white">
       <SectionIntro
         kicker="Featured work"
-        title="Proof points first, before the standard resume read."
-        body="These materials are placed near the top so recruiters can quickly see how Linh structures problems, communicates recommendations, and turns analysis into a polished deliverable."
       />
       <div className="mt-10 grid gap-5 lg:grid-cols-2">
         {profile.projects.map((project) => (
@@ -288,7 +286,6 @@ function Experience() {
       <SectionIntro
         kicker="Experience"
         title="Impact framed through consulting-relevant behaviors."
-        body="Each item emphasizes the signals recruiters tend to look for: problem solving, ownership, communication, leadership, and judgment."
       />
       <div className="mt-10 space-y-4">
         {profile.experience.map((item, index) => {
@@ -335,7 +332,6 @@ function Resume({ onPreview }) {
           <p className="section-kicker">Resume</p>
           <h2 className="mt-4 font-serif text-4xl font-semibold leading-tight text-ink">A recruiter-friendly resume hub.</h2>
           <p className="mt-5 text-base leading-8 text-graphite">
-            Add the final resume PDF when ready. The section is already designed for embedded viewing, download, and a quick web-native read.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             {profile.resume.available ? (
@@ -409,7 +405,6 @@ function Contact({ mailto }) {
           <p className="text-xs font-semibold uppercase text-white/65">Contact</p>
           <h2 className="mt-4 font-serif text-4xl font-semibold leading-tight">Open to consulting conversations.</h2>
           <p className="mt-5 text-base leading-8 text-white/75">
-            Best for recruiting outreach, coffee chats, project discussion, and interview process coordination.
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
