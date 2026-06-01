@@ -14,7 +14,7 @@ export const profile = {
     'I bring structured problem solving, analytical rigor, and clear executive communication to ambiguous business questions. My work spans market strategy, financial analysis, ESG benchmarking, and consulting-style deliverables built for decision makers.',
   proofPoints: [
     'Consulting-style project work across growth, ESG, and market-entry questions',
-    'Slide decks and analytical work products available for recruiter review',
+    'Analytical work products available for recruiter review',
     'Recommendation-backed work ethic, professionalism, and client readiness'
   ],
   metrics: [
@@ -48,16 +48,14 @@ export const profile = {
         'A compact finance work sample focused on ratio analysis, business interpretation, and disciplined presentation of quantitative findings.',
       skills: ['Excel modeling', 'Financial ratios', 'Analytical synthesis', 'Business interpretation'],
       file: '/documents/financial-ratios.pdf',
-      accent: 'graphite'
+      accent: 'brass'
     }
   ],
   recommendation: {
     title: 'KPMG Recommendation Letter',
     file: '/documents/kpmg-recommendation.pdf',
     excerpt:
-      'A professional endorsement highlighting reliability, quality of work, communication, and readiness for client-facing environments.',
-    summary:
-      'Positioned as trust-building evidence near the top of the site, the letter supports the candidate narrative with third-party validation from a professional services setting.'
+      'A professional endorsement highlighting reliability, quality of work, communication, and readiness for client-facing environments.'
   },
   about:
     'I am a consulting-oriented candidate focused on helping teams clarify problems, pressure-test assumptions, and turn analysis into practical recommendations. I am especially interested in strategy, growth, ESG, and finance work where strong judgment, structured communication, and stakeholder awareness matter.',
