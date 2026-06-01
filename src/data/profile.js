@@ -18,29 +18,9 @@ export const profile = {
     'Recommendation-backed work ethic, professionalism, and client readiness'
   ],
   metrics: [
-    { value: '5', label: 'Featured work samples' },
-    { value: 'KPMG', label: 'Endorsement material' },
-    { value: 'MBB', label: 'Recruiting-ready format' }
+    { value: '4', label: 'Featured work samples' },
   ],
   projects: [
-    {
-      title: 'BCG-Style Strategic Pitch Deck',
-      eyebrow: 'Featured deck',
-      summary:
-        'A concise strategy presentation built to communicate a recommendation, supporting logic, and implementation implications in a client-ready format.',
-      skills: ['PowerPoint storytelling', 'Market framing', 'Recommendation logic', 'Executive communication'],
-      file: '/documents/bcg-pitch-deck.pdf',
-      accent: 'oxblood'
-    },
-    {
-      title: 'Bain Hypothetical Case Work',
-      eyebrow: 'Case analysis',
-      summary:
-        'A consulting-style case document demonstrating issue structuring, prioritized analysis, and decision-oriented synthesis.',
-      skills: ['Problem structuring', 'Data-driven judgment', 'Business case logic', 'Prioritization'],
-      file: '/documents/bain-hypothetical.pdf',
-      accent: 'fern'
-    },
     {
       title: 'Hypothetical Consulting Workplan',
       eyebrow: 'Work planning',
