@@ -18,9 +18,20 @@ export const profile = {
     'Recommendation-backed work ethic, professionalism, and client readiness'
   ],
   metrics: [
-    { value: '4', label: 'Featured work samples' },
+    { value: '3', label: 'Featured work samples' },
+    {label: 'KPMG Recommendation Letter'}
   ],
   projects: [
+    
+    {
+      title: 'Event Prioritization Matrix',
+      eyebrow: 'Priorities Matrix',
+      summary:
+        'A matrix analysis comparing different event plug-ins for efficient use of resources.',
+      skills: ['Excel modeling', 'Market Analysis', 'Analytical Research', 'Stakeholder alignment'],
+      file: '/documents/event-matrix.pdf',
+      accent: 'brass'
+    },
     {
       title: 'Hypothetical Consulting Workplan',
       eyebrow: 'Work planning',
